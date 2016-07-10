@@ -1,0 +1,673 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.flowcode{
+	position: fixed;
+	
+	width: 200px;
+	height: 361px;
+	z-index: 10;
+	top: 230px;
+}
+.flowcode>.code{
+	position: absolute;
+	bottom: 0px;
+}
+.flowcode>.list{
+	position: absolute;
+	bottom: 30px;
+	right: 0px;
+}
+
+
+.bodytop{
+	width: 100%;
+	height: 145px;
+	padding: 1px;
+	
+}
+.bodytop>.firstDiv{
+	height: 96px;
+	width: 100%;
+	margin-top: auto;
+	
+}
+
+.bodytop>.firstDiv>.logDiv{
+	position: absolute;
+	margin-top: 23px;
+	left: 210px;
+	width: 179px;
+	height: 70px;
+	float: left;
+}
+.bodytop>.firstDiv>.buttonDiv{
+	position: absolute;
+	margin-top: 40px;
+	right: 210px;
+	width: 164px;
+	height: 30px;
+	float: left;
+
+}
+
+.bodytop>.firstDiv>.buttonDiv>.reg{
+	position: relative;
+	width: 72px;
+	height: 30px;
+	left: 0px;
+	background-color: rgb(104,191,74);
+	color: white;
+	
+}
+.bodytop>.firstDiv>.buttonDiv>.login{
+	position: relative;
+	width: 72px;
+	height: 30px;
+	left: 16px;
+	background-color: rgb(104,191,74);
+	color: white;
+}
+
+.bodytop>.secondDiv{
+	position: relative;
+	height: 49px;
+	width: 100%;
+	background-color: rgb(104,191,74);;
+}
+
+.bodytop>.secondDiv>.navul{
+	position: relative;
+	
+	width: ;
+	height: 48px;
+	list-style-type:none;
+    left: 105px;
+    top: 17px;
+ 
+}
+
+.bodytop>.secondDiv>.navul>.lic{
+
+	float: left;
+	margin-left: 57px;
+}
+.bodytop>.secondDiv>.navul>.lic>.childul{
+	position: absolute;
+	z-index: 3;
+  list-style-type:none;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  border: solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  color: rgb(104,191,74);
+  top: 30px;
+}
+
+.bodytop>.secondDiv>.navul>.lic>.childul a{
+	text-decoration:none;
+	color: rgb(104,191,74);;
+}
+.bodytop>.secondDiv>.navul>.lic>.childul>.cli{
+	margin: 0px;
+	margin-top: 5px;
+}
+
+.bodytop>.secondDiv>.navul>.lic> font{
+    font-size: 20px;
+    font-style: ;
+    color: white;
+}
+
+.bodytop>.secondDiv>.rightDiv{
+	position: absolute;
+	top: 17px;
+	right: 145px;
+	width: 380px;
+	height: 48px;
+	float: left;
+}
+
+.bodytop>.secondDiv>.rightDiv> a{
+	color:#FFF;/*文字颜色是白色*/
+    font-size:18px;
+     text-align:center;/*让文本居中*/
+    margin-left: 40px;
+    text-decoration:none; /*去掉下划线*/
+}
+
+
+
+
+
+
+
+.bodyDiv{
+	
+	width: 1180px;
+	height: 1883px;
+	
+	margin: 0 auto;
+	
+}
+
+.bodyDiv>.up{
+	z-index: -1;
+	position: relative;
+	height: 331px;
+	width: 100%;
+	background-color: white;
+	top: 36px;
+}
+
+.bodyDiv>.up>.left{
+	height: 100%;
+	width: 850px;
+	background-color: aquamarine;
+	
+}
+.bodyDiv>.up>.left img{
+	height: 331px;
+	width: 850px;
+	
+}
+
+.bodyDiv>.up>.right{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 278px;
+	background-color: white;
+   
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodyDiv>.up>.right>.sig {
+	position: relative;
+	width: 278px;
+	height: 58px;
+}
+.bodyDiv>.up>.right>.sig div{
+	position: absolute;
+    text-align: center;
+    width: 140px;
+    top: 10px;
+    right: 0px;
+    color: rgb(93,93,93);
+}
+
+.bodyDiv>.up>.right>.hotgroup{
+	position: absolute;
+	margin-top: 20px;
+	width: 100%;
+	height: 252px;
+	background-color: white;
+}
+
+.bodyDiv>.up>.right>.hotgroup font{
+	font-size: 17px;
+}
+
+.bodyDiv>.up>.right>.hotgroup a{
+	text-decoration:none; /*去掉下划线*/
+	color: rgb(157,209,143)
+}
+
+.bodyDiv>.up>.right>.hotgroup>.top a{
+	float: right;
+	
+	color: rgb(141,141,141);
+}
+
+
+
+
+
+
+.bodyDiv>.up>.right>.hotgroup>.groupItem1{
+	position: absolute;
+	width: 100%;
+	margin-top: 20px;
+    
+	background-color: white;
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem1 img{
+	float: left;
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem1 font{
+	font-size: 15px;
+	color: rgb(141,141,141);
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem1>.content{
+	width: 217px;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+.bodyDiv>.up>.right>.hotgroup>.groupItem2{
+	position: absolute;
+	width: 100%;
+	margin-top: 92px;
+    
+	background-color: white;
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem2 img{
+	float: left;
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem2 font{
+	font-size: 15px;
+	color: rgb(141,141,141);
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem2>.content{
+	width: 217px;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+.bodyDiv>.up>.right>.hotgroup>.groupItem3{
+	position: absolute;
+	width: 100%;
+	margin-top: 157px;
+    
+	background-color: white;
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem3 img{
+	float: left;
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem3 font{
+	font-size: 15px;
+	color: rgb(141,141,141);
+}
+.bodyDiv>.up>.right>.hotgroup>.groupItem>.content{
+	width: 217px;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyDiv>.below{
+	position: relative;
+	top: 60px;
+	height: 1492px;
+	width: 100%;
+	background-color: white;
+	
+}
+
+.bodyDiv>.below>.left{
+	
+	height: 100%;
+	width: 850px;
+	background-color: white;
+	
+}
+.bodyDiv>.below>.left a{
+	
+	text-decoration:none;
+}
+
+.bodyDiv>.below>.left>.item{
+	position: relative;
+	height: 238px;
+	width: 100%;
+	margin-top: 24px;
+	
+}
+.bodyDiv>.below>.left>.item>.pic{
+	height: 238px;
+	width: 400px;
+}
+.bodyDiv>.below>.left>.item>.content{
+	position: absolute;
+	width: 430px;
+	height: 238px;
+	top: 0px;
+	right: 0px;
+	
+}
+.bodyDiv>.below>.left>.item>.content>.title font{
+	font-size: 21px;
+	align-content: center;
+	color: rgb(88,88,88);
+}
+.bodyDiv>.below>.left>.item>.content>.title img{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.bodyDiv>.below>.left>.item>.content>.fon{
+    position: absolute;
+
+    width: 100%;
+    height: 188px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 25px;
+  
+	
+}
+
+.bodyDiv>.below>.left>.item>.content>.fon>.date{
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: rgb(150,150,150);
+}	
+
+
+
+
+
+
+.bodyDiv>.below>.right{
+	position: absolute;
+	height: 100%;
+	width: 278px;
+	background-color: white;
+	right: 0px;
+	top: 0px;
+}
+	
+.bodyDiv>.below>.right>.ritem{
+	position: relative;
+	width: 100%;
+	height: 324px;
+	background-color: white;
+}
+.bodyDiv>.below>.right>.ritem a{
+	text-decoration:none;
+}
+.bodyDiv>.below>.right>.ritem>.top{
+	
+	background-color: white;
+}
+
+.bodyDiv>.below>.right>.ritem>.top a{
+    text-decoration:none; /*去掉下划线*/
+	color: rgb(141,141,141);
+	float: right;
+}
+.bodyDiv>.below>.right>.ritem>.cItem{
+	position: relative;
+	width: 100%;
+	height: 53px;
+	background-color: white;
+	margin-top: 21px;
+}
+.bodyDiv>.below>.right>.ritem>.cItem>.content{
+	position: absolute;
+	width: 217px;
+	height: 100%;
+	background-color: white;
+	top: 0px;
+	right: 0px;
+	font-size: 15px;
+}
+.bodyDiv>.below>.right>.ritem>.cItem>.content font{
+	position: absolute;
+	left: 0px;
+    bottom: 0px;
+}
+	
+
+/* 热门活动*/
+.bodyDiv>.below>.right>.huo_dong_ritem{
+	position: relative;
+	width: 100%;
+	height: 383px;
+	background-color: white;
+}
+.bodyDiv>.below>.right>.huo_dong_ritem a{
+	text-decoration:none;
+}
+.bodyDiv>.below>.right>.huo_dong_ritem>.top{
+	
+	background-color: white;
+}
+
+.bodyDiv>.below>.right>.huo_dong_ritem>.top a{
+    text-decoration:none; /*去掉下划线*/
+	color: rgb(141,141,141);
+	float: right;
+}
+
+.bodyDiv>.below>.right>.huo_dong_ritem>.huo_dong_cItem{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	margin-top: 21px;
+}
+.bodyDiv>.below>.right>.huo_dong_ritem>.huo_dong_cItem>.huo_dong_content{
+	position: absolute;
+	height: 100%;
+	width: 140px;
+	background-color: white;
+	top: 0px;
+	right: 0px;
+}
+.bodyDiv>.below>.right>.huo_dong_ritem>.huo_dong_cItem>.huo_dong_content>.num{
+	
+	color: rgb(144,144,144);
+}
+.bodyDiv>.below>.right>.huo_dong_ritem>.huo_dong_cItem>.huo_dong_content img{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+	
+	
+/* 作业专区*/
+.bodyDiv>.below>.right>.zuoye_ritem{
+	position: relative;
+	width: 100%;
+	height: 359px;
+	background-color: white;
+}
+.bodyDiv>.below>.right>.zuoye_ritem a{
+	text-decoration:none;
+}
+.bodyDiv>.below>.right>.zuoye_ritem>.top{
+	
+	background-color: white;
+}
+
+.bodyDiv>.below>.right>.zuoye_ritem>.top a{
+    text-decoration:none; /*去掉下划线*/
+	color: rgb(141,141,141);
+	float: right;
+}
+.bodyDiv>.below>.right>.zuoye_ritem>.cItem{
+	position: relative;
+	width: 100%;
+	height: 46px;
+	background-color: white;
+	margin-top: 23px;
+}
+.bodyDiv>.below>.right>.zuoye_ritem>.cItem>.fir div{
+	position: relative;
+	margin-top: 13px;
+}
+
+/* 名师推荐*/
+.bodyDiv>.below>.right>.mingshi_ritem{
+	position: relative;
+	width: 100%;
+	height: 420px;
+	background-color: white;
+}
+.bodyDiv>.below>.right>.mingshi_ritem a{
+	text-decoration:none;
+}
+.bodyDiv>.below>.right>.mingshi_ritem>.top{
+	
+	background-color: white;
+}
+
+.bodyDiv>.below>.right>.mingshi_ritem>.top a{
+    text-decoration:none; /*去掉下划线*/
+	color: rgb(141,141,141);
+	float: right;
+}
+.bodyDiv>.below>.right>.mingshi_ritem>.cItem{
+	position: relative;
+	width: 100%;
+	height: 63px;
+	background-color: white;
+	margin-top: 18px;
+}
+.bodyDiv>.below>.right>.mingshi_ritem>.cItem>.content{
+	position: absolute;
+	width: 207;
+	height: 100%;
+    top: 0px;
+    right: 0px;
+}
+.bodyDiv>.below>.right>.mingshi_ritem>.cItem>.content>.name{
+	font-size: 14px;
+}
+.bodyDiv>.below>.right>.mingshi_ritem>.cItem>.content div{
+	width: 207px;
+	height: 40px;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+.bodybottom{
+	width: 100%;
+	height: 465px;
+	background-color: rgb(240,240,240);
+}
+.bodybottom>.hr{
+	height: 1px;
+	color: rgb(104,191,74);
+}
+
+.bodybottom>.up{
+	position: relative;
+	width: 1180px;
+	height: 308px;
+	margin: auto;
+	
+}
+
+.bodybottom>.up>.lianjie{
+	position: absolute;
+	top: 10px;
+}
+
+.bodybottom>.up>.linkDiv
+{
+	position: relative;
+	width: 1180px;
+	top: 50px;
+}
+.bodybottom>.up>.linkDiv>.linktable{
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: rgb(140,140,140);
+	width: 196px;
+	
+	float: left;
+	
+}
+.bodybottom>.up>.linkDiv>.linktable a{
+	color: rgb(109,109,109);
+	text-decoration:none;
+}
+
+.bodybottom>.up>.linktable td{
+	width: %;
+	
+}
+
+
+.bodybottom>.below>.midwhite{
+	width: 100%;
+	height: 10px;
+	
+	background-color: white;
+}
+
+
+
+
+
+.bodybottom>.below{
+	width: 100%;
+	height: 145px;
+	background-color: rgb(93,93,93);
+	bottom: 0px;
+}
+
+.bodybottom>.below>.content
+{
+	position: relative;
+	width: 1180px;
+	margin:auto;
+}
+.bodybottom>.below>.content>.ul{
+	position: relative;
+	
+	width: ;
+	height: 48px;
+	list-style-type:none;
+    left: 105px;
+    top: 30px;
+    
+    
+}
+.bodybottom>.below>.content>.ul>.firstli{
+	float: left;
+	margin-left: 0px;
+	color: white;
+}
+.bodybottom>.below>.content>.ul li{
+	float: left;
+	margin-left: 48px;
+	color: white;
+}
+
+.bodybottom>.below>.content>.ul a{
+	 text-decoration:none;
+	 color: white;
+}
+
+.bodybottom>.below>.copyright{
+	position: relative;
+	margin: auto;
+	width: 1180px;
+	left: 80px;
+	top: 10px;
+}
+
+.bodybottom>.below>.copyright font{
+	color: white;
+	align-content: center;
+}
+
